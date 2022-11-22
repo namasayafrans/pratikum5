@@ -49,14 +49,15 @@ Buat sebuah list sebanyak 5 elemen dengan nilai bebas
 
     print("------------------------------------------")
     # ubah elemen list
+    a = [20, 40, 50, 60, 100]
     a[3] = 80 # Mengubah elemen ke 4 dengan nilai lainnya
-    print(a[3]) # Menampilkan elemen ke 4 yang sudah diubah nilainya
-    a[3:4] = 80, 90 # Mengubah elemen ke 4 sampai dengan elemen terakhir
-    print(a[3:5]) # menampilkan elemen ke 4 sampai dengan elemen terakhir
+    print(a) # Menampilkan elemen ke 4 yang sudah diubah nilainya
+    a[3:4] = [80, 90] # Mengubah elemen ke 4 sampai dengan elemen terakhir
+    print(a) # menampilkan elemen ke 4 sampai dengan elemen terakhir
 
     print("------------------------------------------")
     # tambah elemen list
-    b = a[0:2] # Mengambil 2 bagian dari list pertama (a) dan jadikan list kedua (b)
+    b = a[0:2] # Mengambil 2 bagian dari list pertama (a) dan ada list kedua (b)
     print(b)
     b.append(45) # Menambah list dengan nilai string
     print(b)
